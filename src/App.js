@@ -78,7 +78,9 @@ export class MapContainer extends Component {
         zoom={14}
         style={mapStyles}
         initialCenter={this.state.coord}
-      />
+      >
+      <Marker name={'Current location'} />
+      </Map>
       </div>
       <div className ="form-wrapper">
       
